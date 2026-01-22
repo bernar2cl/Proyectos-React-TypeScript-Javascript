@@ -1,0 +1,15 @@
+[submodule "01-reforzamiento-javascript"]
+	path = 01-reforzamiento-javascript
+	url = https://github.com/bernar2cl/01-reforzamiento-javascript.git
+[submodule "02-first-steps-React-TypeScript-SWC"]
+	path = 02-first-steps-React-TypeScript-SWC
+	url = https://github.com/bernar2cl/02-first-steps-React-TypeScript-SWC.git
+[submodule "03-gifs-app-React-TypeScript-SWC"]
+	path = 03-gifs-app-React-TypeScript-SWC
+	url = https://github.com/bernar2cl/03-gifs-app-React-TypeScript-SWC.git
+[submodule "05-heroes-app-React-TypeScript-SWC"]
+	path = 05-heroes-app-React-TypeScript-SWC
+	url = https://github.com/bernar2cl/05-heroes-app-React-TypeScript-SWC.git
+[submodule "06-nest-heroes-backend-NestJS"]
+	path = 06-nest-heroes-backend-NestJS
+	url = https://github.com/bernar2cl/06-nest-heroes-backend-NestJS.git
