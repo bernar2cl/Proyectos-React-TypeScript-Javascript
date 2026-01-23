@@ -5,6 +5,8 @@ on:
   push:
     branches:
       - main
+  schedule:
+    - cron: '0 6 * * *' # Ejecutar todos los días a las 03:00 (hora Chile aprox)
 
 jobs:
   sync:
