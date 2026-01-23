@@ -13,3 +13,6 @@
 [submodule "06-nest-heroes-backend-NestJS"]
 	path = 06-nest-heroes-backend-NestJS
 	url = https://github.com/bernar2cl/06-nest-heroes-backend-NestJS.git
+[submodule "04-hooks-app-React-TypeScript"]
+	path = 04-hooks-app-React-TypeScript
+	url = https://github.com/bernar2cl/04-hooks-app-React-TypeScript.git

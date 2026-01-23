@@ -2,6 +2,8 @@ name: 🔄 Sync Submodules
 
 on:
   workflow_dispatch:
+  repository_dispatch:
+    types: [submodule-updated] # 👈 este evento
   push:
     branches:
       - main
