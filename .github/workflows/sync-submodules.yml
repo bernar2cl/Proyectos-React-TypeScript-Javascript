@@ -1,4 +1,4 @@
-name: 🔄 Sync Submodules — ${{ github.event.client_payload.submodule || 'manual/cron/push' }}
+name: 🔄 Sync Submodules
 
 on:
   workflow_dispatch:
@@ -29,6 +29,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+
+      - name: Print dynamic submodule name
+        run: |
+          SUBMODULE="${{ github.event.client_payload.submodule || 'manual/cron/push' }}"
+          echo "🔄 Sync Submodules — $SUBMODULE"
 
       - name: Make script executable
         run: chmod +x ./update-submodules.sh
