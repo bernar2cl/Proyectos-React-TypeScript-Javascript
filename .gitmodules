@@ -16,3 +16,6 @@
 [submodule "07-teslo-shop-app-React-TypeScript-SWC"]
 	path = 07-teslo-shop-app-React-TypeScript-SWC
 	url = https://github.com/bernar2cl/07-teslo-shop-app-React-TypeScript-SWC.git
+[submodule "10-Calendario"]
+	path = 10-Calendario
+	url = https://github.com/bernar2cl/10-Calendario.git
