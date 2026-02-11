@@ -10,15 +10,9 @@
 [submodule "05-heroes-app-React-TypeScript-SWC"]
 	path = 05-heroes-app-React-TypeScript-SWC
 	url = https://github.com/bernar2cl/05-heroes-app-React-TypeScript-SWC.git
-[submodule "06-nest-heroes-backend-NestJS"]
-	path = 06-nest-heroes-backend-NestJS
-	url = https://github.com/bernar2cl/06-nest-heroes-backend-NestJS.git
 [submodule "04-hooks-app-React-TypeScript"]
 	path = 04-hooks-app-React-TypeScript
 	url = https://github.com/bernar2cl/04-hooks-app-React-TypeScript.git
 [submodule "07-teslo-shop-app-React-TypeScript-SWC"]
 	path = 07-teslo-shop-app-React-TypeScript-SWC
 	url = https://github.com/bernar2cl/07-teslo-shop-app-React-TypeScript-SWC.git
-[submodule "backend-teslo-shop-Nest"]
-	path = backend-teslo-shop-Nest
-	url = https://github.com/bernar2cl/backend-teslo-shop-Nest.git
